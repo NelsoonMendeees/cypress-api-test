@@ -1,0 +1,24 @@
+{
+  "update": {
+    "user": {
+      "name": "Matthew Murdock",
+      "email": "demolidor@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Ir a audencia do Frank Castle",
+      "tags": ["murdock", "demolidor"]
+    }
+  },
+  "notFound": {
+    "user": {
+      "name": "Victor von Doom",
+      "email": "dr_destino@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Acabar com Quarteto Fantastico",
+      "tags": ["monarca", "rajadasmisticas"]
+    }
+  }
+}

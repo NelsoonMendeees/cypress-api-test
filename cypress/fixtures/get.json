@@ -1,0 +1,47 @@
+{
+  "getTask": {
+    "user": {
+      "xavier": {
+        "name": "Charles Xavier",
+        "email": "xavier@qatest.com",
+        "password": "pwd123"
+      }
+    },
+    "tasks": [
+      {
+        "name": "Estud4r Automação de Testes",
+        "tags": ["QaX", "Cypress", "QaEngineer"]
+      },
+      {
+        "name": "Estud4r Cypress",
+        "tags": ["QaX", "Cypress", "QaEngineer"]
+      },
+      {
+        "name": "Estud4r TypeScript",
+        "tags": ["QaX", "TS", "QaEngineer"]
+      }
+    ]
+  },
+  "unique": {
+    "user": {
+      "name": "Bruce Wayne",
+      "email": "the_batman@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Treinar Jiu-Jitsu",
+      "tags": ["morcego", "darkKinight"]
+    }
+  },
+  "notFound": {
+    "user": {
+      "name": "T'Challa",
+      "email": "black.panther@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Testar novo traje de batalha",
+      "tags": ["wakanda", "vibranium"]
+    }
+  }
+}

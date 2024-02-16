@@ -1,0 +1,23 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "Testes API Mark 85",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api"
+  ],
+  "author": "Nelson Mendes",
+  "license": "MIT",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.1",
+    "cypress": "^12.12.0",
+    "cypress-plugin-api": "^2.11.1",
+    "dotenv": "^16.3.1",
+    "mongodb": "^5.7.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "remove": {
+    "user": {
+      "name": "Peter Parker",
+      "email": "parker@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Treinar com o novo laça teias",
+      "tags": ["nanotech", "aranha"]
+    }
+  },
+  "notFound": {
+    "user": {
+      "name": "James Buchanan Bucky",
+      "email": "soldado_invernal@qatest.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Treinar com novo braço bionico",
+      "tags": ["rogers", "vibranium"]
+    }
+  }
+}

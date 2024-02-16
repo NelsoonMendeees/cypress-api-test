@@ -1,0 +1,38 @@
+{
+  "user": {
+    "name": "Robert Bruce Banner",
+    "email": "hulk_banner@qatest.com",
+    "password": "hulkSmash"
+  },
+  "duplicateUser": {
+    "name": "Groot",
+    "email": "groot@qatest.com",
+    "password": "iAmGrooooot"
+  },
+  "validateFields": [
+    {
+      "field": "name is required",
+      "payload": {
+        "email": "gaviao_arqueiro@qatest.com",
+        "password": "Hawkeye"
+      },
+      "message": "ValidationError: \"name\" is required"
+    },
+    {
+      "field": "email is required",
+      "payload": {
+        "name": "Clinton Francis Barton",
+        "password": "Hawkeye"
+      },
+      "message": "ValidationError: \"email\" is required"
+    },
+    {
+      "field": "password is required",
+      "payload": {
+        "name": "Clinton Francis Barton",
+        "email": "gaviao_arqueiro@qatest.com"
+      },
+      "message": "ValidationError: \"password\" is required"
+    }
+  ]
+}

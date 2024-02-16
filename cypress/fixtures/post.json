@@ -1,0 +1,24 @@
+{
+  "postTask": {
+    "user": {
+      "name": "Stephen Strange",
+      "email": "doctor_strange@qatest.com",
+      "password": "strangeDoctor"
+    },
+    "task": {
+      "name": "Estudar Automação de Testes",
+      "tags": ["QaX", "Cypress", "QaEngineer"]
+    }
+  },
+  "dupTask": {
+    "user": {
+        "name": "Rocket Raccoon",
+        "email": "guaxinim@qatest.com",
+        "password": "individuo89P13"
+    },
+    "task": {
+      "name": "Estudar Testes de Performance",
+      "tags": ["QaX", "K6", "QaEngineer"]
+    }
+  }
+}

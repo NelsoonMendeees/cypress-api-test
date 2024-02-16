@@ -1,0 +1,19 @@
+{
+  "user": {
+    "name": "Star Lord",
+    "email": "star_lord@qatest.com",
+    "password": "pwd123"
+  },
+  "validateFields": [
+    {
+      "field": "invalid password",
+      "email": "thor_odinson@qatest.com",
+      "password": "vingadorMaisForte"
+    },
+    {
+      "field": "email not found",
+      "email": "thor_odinson@qatest.com.br",
+      "password": "playboyzinho123"
+    }
+  ]
+}
